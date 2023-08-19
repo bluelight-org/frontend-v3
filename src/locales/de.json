@@ -1,0 +1,27 @@
+{
+  "routes": {
+    "home": "Startseite",
+    "about": "Über uns",
+    "settings": "Einstellungen"
+  },
+  "headline": {
+    "settings": "Einstellungen",
+    "languageAndAppearance": "Sprache und Erscheinungsbild",
+    "profileSettings": "Nutzerprofil"
+  },
+  "button": {
+    "save": "Speichern"
+  },
+  "settings": {
+    "language": "Sprache",
+    "languageChoices": {
+      "de": "Deutsch",
+      "en": "English (US)"
+    },
+    "theme": "Erscheinungsbild",
+    "themeChoices": {
+      "light-theme": "Hell",
+      "dark-theme": "Dunkel"
+    }
+  }
+}

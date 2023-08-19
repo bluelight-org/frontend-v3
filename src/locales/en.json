@@ -1,0 +1,27 @@
+{
+  "routes": {
+    "home": "Home",
+    "about": "About",
+    "settings": "Settings"
+  },
+  "headline": {
+    "settings": "Settings",
+    "languageAndAppearance": "Language and Appearance",
+    "profileSettings": "Profile"
+  },
+  "button": {
+    "save": "Save"
+  },
+  "settings": {
+    "language": "Language",
+    "languageChoices": {
+      "de": "German",
+      "en": "English (US)"
+    },
+    "theme": "Theme",
+    "themeChoices": {
+      "light-theme": "Light",
+      "dark-theme": "Dark"
+    }
+  }
+}
