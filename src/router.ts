@@ -24,10 +24,37 @@ export const routes: Array<RouteRecordRaw> = [
     path: "/settings",
     name: "settings",
     meta: {
-      requiresAuth: false,
+      requiresAuth: true,
       showInMenu: false,
     },
     component: () => import("./views/SettingsView.vue"),
+  },
+  {
+    path: "/dashboard",
+    name: "dashboard",
+    meta: {
+      requiresAuth: true,
+      showInMenu: true,
+    },
+    component: () => import("./views/DashboardView.vue"),
+  },
+  {
+    path: "/alert",
+    name: "alert",
+    meta: {
+      requiresAuth: true,
+      showInMenu: true,
+    },
+    component: () => import("./views/AlertView.vue"),
+  },
+  {
+    path: "/login",
+    name: "login",
+    meta: {
+      requiresAuth: false,
+      showInMenu: false,
+    },
+    component: () => import("./views/LoginView.vue"),
   },
 ];
 
@@ -43,7 +70,7 @@ router.beforeEach((to, from, next) => {
     } else {
       next({
         params: { nextUrl: to.fullPath },
-        name: "Login",
+        name: "login",
       });
     }
   } else {

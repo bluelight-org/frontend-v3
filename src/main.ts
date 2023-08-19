@@ -6,5 +6,11 @@ import store from "./store";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import i18n from "./i18n";
+import Notifications from "@kyvg/vue3-notification";
 
-createApp(App).use(store).use(router).use(i18n).mount("#app");
+createApp(App)
+  .use(Notifications)
+  .use(store)
+  .use(router)
+  .use(i18n)
+  .mount("#app");

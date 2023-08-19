@@ -7,10 +7,22 @@
   "headline": {
     "settings": "Settings",
     "languageAndAppearance": "Language and Appearance",
-    "profileSettings": "Profile"
+    "profileSettings": "Profile",
+    "dashboard": "Dashboard",
+    "alert": "Alert",
+    "login": "Login",
+    "register": "Register"
+  },
+  "message": {
+    "loginFailed": "Login failed",
+    "wrongCreds": "Wrong credentials"
   },
   "button": {
     "save": "Save"
+  },
+  "common": {
+    "username": "Username",
+    "password": "Password"
   },
   "settings": {
     "language": "Language",

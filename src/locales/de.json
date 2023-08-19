@@ -2,15 +2,27 @@
   "routes": {
     "home": "Startseite",
     "about": "Über uns",
-    "settings": "Einstellungen"
+    "settings": "Einstellungen",
+    "dashboard": "Dashboard",
+    "alert": "Alarm",
+    "login": "Anmelden",
+    "register": "Registrieren"
   },
   "headline": {
     "settings": "Einstellungen",
     "languageAndAppearance": "Sprache und Erscheinungsbild",
     "profileSettings": "Nutzerprofil"
   },
+  "message": {
+    "loginFailed": "Anmeldung fehlgeschlagen",
+    "wrongCreds": "Fehlerhafte Nutzerdaten"
+  },
   "button": {
     "save": "Speichern"
+  },
+  "common": {
+    "username": "Benutzername",
+    "password": "Passwort"
   },
   "settings": {
     "language": "Sprache",
