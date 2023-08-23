@@ -75,4 +75,4 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-node-
       - run: yarn install
-      - run: npx cypress run tests/e2e
+      - run: yarn test:e2e --headless
