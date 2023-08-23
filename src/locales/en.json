@@ -2,7 +2,9 @@
   "routes": {
     "home": "Home",
     "about": "About",
-    "settings": "Settings"
+    "settings": "Settings",
+    "dashboard": "Dashboard",
+    "alert": "Alert"
   },
   "headline": {
     "settings": "Settings",
