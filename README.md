@@ -61,6 +61,6 @@ After that we might confront outselves with following issues:
 If you want to contribute you should definetly check out CONTRIBUTING file.
 For further information please contact us on out discord server.
 
-## Team
+## Core team
 Mathis Burger <kontakt@mathis-burger.de>
 
