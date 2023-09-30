@@ -1,28 +1,32 @@
 <template>
-  <div class="container">
-    <div class="card align-content-center">
-      <div class="card-body">
-        <h1 class="card-title">{{ $t("routes.login") }}</h1>
-        <input
-          class="form-control"
-          :placeholder="$t('common.username')"
-          type="text"
-          v-model="usernameValue"
-        />
-        <input
-          class="form-control"
-          :placeholder="$t('common.password')"
-          type="password"
-          v-model="passwordValue"
-        />
-        <div class="d-flex flex-column">
-          <button
-            class="btn btn-primary"
-            v-on:click="login(usernameValue, passwordValue)"
-          >
-            {{ $t("routes.login") }}
-          </button>
-          <router-link to="/register">{{ $t("routes.register") }}</router-link>
+  <div class="wrap">
+    <div class="container">
+      <div class="card align-content-center">
+        <div class="card-body">
+          <h1 class="card-title">{{ $t("routes.login") }}</h1>
+          <input
+            class="form-control"
+            :placeholder="$t('common.username')"
+            type="text"
+            v-model="usernameValue"
+          />
+          <input
+            class="form-control"
+            :placeholder="$t('common.password')"
+            type="password"
+            v-model="passwordValue"
+          />
+          <div class="d-flex flex-column">
+            <button
+              class="btn btn-primary"
+              v-on:click="login(usernameValue, passwordValue)"
+            >
+              {{ $t("routes.login") }}
+            </button>
+            <router-link to="/register">{{
+              $t("routes.register")
+            }}</router-link>
+          </div>
         </div>
       </div>
     </div>
@@ -62,15 +66,25 @@ function login(username: string, password: string): void {
 </script>
 
 <style scoped>
+.wrap {
+  position: absolute;
+  top: 66px;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--loginBackground) !important;
+}
 .card {
   margin-top: 15%;
   background: var(--cardColor);
 }
 .card-body {
   background: var(--cardColor);
+  border-radius: 10%;
 }
 .card-title {
   text-align: center;
+  color: var(--textColor);
 }
 .form-control {
   height: 55px;
@@ -78,9 +92,11 @@ function login(username: string, password: string): void {
 input {
   margin-top: 1em;
   font-size: 1.2em;
+  color: var(--textColor);
 }
 input::placeholder {
   text-align: center;
+  color: var(--textColor);
 }
 .btn {
   margin-top: 1em;
