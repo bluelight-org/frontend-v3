@@ -13,15 +13,15 @@ describe("Auth tests", function () {
     ).click();
 
     cy.get(
-      "#app > .container > .card > .card-body > .form-control:nth-child(2)"
+      "#app > .wrap > .container > .card > .card-body > .form-control:nth-child(2)"
     ).click();
 
     cy.get(
-      "#app > .container > .card > .card-body > .form-control:nth-child(2)"
+      "#app > .wrap > .container > .card > .card-body > .form-control:nth-child(2)"
     ).type("root");
 
     cy.get(
-      "#app > .container > .card > .card-body > .form-control:nth-child(3)"
+      "#app > .wrap > .container > .card > .card-body > .form-control:nth-child(3)"
     ).type("Admin123");
 
     cy.get(".container > .card > .card-body > .d-flex > .btn").click();
