@@ -1,7 +1,7 @@
 <template>
   <div class="dropdown profile-select">
     <img
-      src="/default-pp.png"
+      src="default-pp.png"
       alt="profile picture"
       class="dropdown-toggle"
       role="button"
