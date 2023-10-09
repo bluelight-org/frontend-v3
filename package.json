@@ -4,9 +4,9 @@
   "private": true,
   "contributors": [
     {
-      "name" : "Mathis Burger",
-      "email" : "kontakt@mathis-burger.de",
-      "url" : "https://mathis-burger.de"
+      "name": "Mathis Burger",
+      "email": "kontakt@mathis-burger.de",
+      "url": "https://mathis-burger.de"
     }
   ],
   "scripts": {
