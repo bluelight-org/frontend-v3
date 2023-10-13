@@ -2,23 +2,23 @@
   <div class="card">
     <div class="card-body">
       <div class="form-group">
-        <label>Type lol</label>
+        <label>{{ $t("common.moduleType") }}</label>
         <select class="form-select" v-model="moduleType">
           <option
             v-for="choice in moduleTypes"
             v-bind:value="choice"
             :key="choice"
           >
-            {{ choice }}
+            {{ $t(`settings.moduleTypes.${choice}`) }}
           </option>
         </select>
       </div>
       <div class="form-group">
-        <label>Höhe lol</label>
+        <label>{{ $t("common.height") }}</label>
         <input type="number" v-model="height" class="form-control" />
       </div>
       <div class="form-group">
-        <label>breite lol</label>
+        <label>{{ $t("common.width") }}</label>
         <input type="number" v-model="width" class="form-control" />
       </div>
     </div>

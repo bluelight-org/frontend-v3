@@ -25,7 +25,10 @@
   },
   "common": {
     "username": "Username",
-    "password": "Password"
+    "password": "Password",
+    "width": "Width",
+    "height": "height",
+    "moduleType": "Module type"
   },
   "settings": {
     "language": "Language",
@@ -37,6 +40,10 @@
     "themeChoices": {
       "light-theme": "Light",
       "dark-theme": "Dark"
+    },
+    "moduleTypes": {
+      "null": "Empty",
+      "dateTime": "Datetime"
     }
   }
 }
