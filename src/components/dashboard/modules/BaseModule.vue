@@ -1,5 +1,5 @@
 <template>
-  <div :style="getPosition() + getDimensions()">
+  <div :style="getPosition() + getDimensions()" class="module-container">
     <slot />
   </div>
 </template>
@@ -47,4 +47,13 @@ const getDimensions = () => {
 };
 </script>
 
-<style scoped></style>
+<style scoped>
+.module-container {
+  background: var(--moduleBoxBackground);
+  padding: 20px;
+  border: 3px solid var(--moduleBoxBorder);
+  border-radius: 10px;
+  color: var(--textColor);
+  box-shadow: 5px 5px 5px var(--moduleBoxShadow);
+}
+</style>
