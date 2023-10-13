@@ -3,7 +3,7 @@
     <li
       v-for="tab in props.tabs"
       :key="tab"
-      class="nav-item"
+      class="nav-item mt-1"
       @click="() => props.setActive(tab)"
     >
       <button

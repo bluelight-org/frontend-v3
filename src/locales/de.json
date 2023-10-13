@@ -11,7 +11,12 @@
   "headline": {
     "settings": "Einstellungen",
     "languageAndAppearance": "Sprache und Erscheinungsbild",
-    "profileSettings": "Nutzerprofil"
+    "profileSettings": "Nutzerprofil",
+    "dashboard": "Dashboard",
+    "alert": "Alarm",
+    "login": "Anmelden",
+    "register": "Registrieren",
+    "dashboardLayout": "Dashboard Anordnung"
   },
   "message": {
     "loginFailed": "Anmeldung fehlgeschlagen",

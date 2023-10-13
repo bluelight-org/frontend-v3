@@ -13,7 +13,8 @@
     "dashboard": "Dashboard",
     "alert": "Alert",
     "login": "Login",
-    "register": "Register"
+    "register": "Register",
+    "dashboardLayout": "Dashboard layout"
   },
   "message": {
     "loginFailed": "Login failed",

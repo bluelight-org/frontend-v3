@@ -15,6 +15,7 @@
           v-bind:language="language"
         />
         <ProfileSettings v-if="active === 'profileSettings'" />
+        <LayoutSettings v-if="active === 'dashboardLayout'" />
       </div>
     </div>
   </div>
@@ -24,7 +25,8 @@ import SettingSidebar from "@/components/settings/SettingSidebar.vue";
 import { ref } from "vue";
 import LanguageAndAppearanceSettings from "@/components/settings/LanguageAndAppearanceSettings.vue";
 import ProfileSettings from "@/components/settings/ProfileSettings.vue";
+import LayoutSettings from "@/components/settings/layoutSettings/LayoutSettings.vue";
 
-const tabs = ["languageAndAppearance", "profileSettings"];
+const tabs = ["languageAndAppearance", "profileSettings", "dashboardLayout"];
 const active = ref<string>(tabs[0]);
 </script>

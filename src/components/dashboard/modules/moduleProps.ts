@@ -1,18 +1,18 @@
 export enum ModulePosition {
-  topLeft,
-  top,
-  topRight,
-  middleLeft,
-  middle,
-  middleRight,
-  bottomLeft,
-  bottom,
-  bottomRight,
+  topLeft = "topLeft",
+  top = "top",
+  topRight = "topRight",
+  middleLeft = "middleLeft",
+  middle = "middle",
+  middleRight = "middleRight",
+  bottomLeft = "bottomLeft",
+  bottom = "bottom",
+  bottomRight = "bottomRight",
 }
 
 export interface ModuleProps {
   position: ModulePosition;
   width: number;
   height: number;
-  extraProps?: any;
+  extraProps?: object;
 }
