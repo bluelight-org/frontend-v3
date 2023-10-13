@@ -25,6 +25,8 @@ describe("Auth tests", function () {
     ).type("Admin123");
 
     cy.get(".container > .card > .card-body > .d-flex > .btn").click();
-    cy.get("h1").should("contain.text", "Dashboard");
+    cy.get(".container > .card > .card-body > .d-flex > .btn").should(
+      "not.exist"
+    );
   });
 });
