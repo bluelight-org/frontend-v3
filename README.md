@@ -56,6 +56,10 @@ After that we might confront outselves with following issues:
 - Community themes
 - Extendability
 
+## Developer documentation
+
+- [Dashboard modules](docs/modules.md)
+
 ## Contributing
 
 If you want to contribute you should definetly check out CONTRIBUTING file.
