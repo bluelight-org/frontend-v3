@@ -1,4 +1,6 @@
 <template>
-  <h1>Dashboard</h1>
-  <p>This page is still under construction.</p>
+  <ConfiguredLayout />
 </template>
+<script setup lang="ts">
+import ConfiguredLayout from "@/components/dashboard/ConfiguredLayout.vue";
+</script>
